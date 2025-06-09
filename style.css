@@ -3,8 +3,19 @@
     padding: 0;
 }
 
+/* DEFINING A VARIABLE */
+:root {
+    --primary: rgba(162, 0, 103, 0.5);
+}
+
 body {
-    background: rgba(162, 0, 103, 0.5);
+    background: var(--primary);
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .container1 {
@@ -50,18 +61,23 @@ a {
 }
 
 .img1 {
-    width: 45%;
-    box-shadow: 0 3px 10px rgb(200 255 0 / 0.7);
-    margin-left: 450px;
+    width: 100%;
+    box-shadow: 15px 15px 10px rgb(200 255 0 / 0.7);
     margin-top: 90px;
     margin-bottom: 20px;
 }
 
 
 .text {
-    width: 30%;
+    width: 100%;
     margin-left: 400px;
     color: antiquewhite;
+
+}
+
+.face {
+    margin: 100px;
+
 
 }
 
@@ -76,7 +92,9 @@ a {
     background: black;
     font-size: 25px;
     margin: 100px;
+    margin-right: 50px;
 }
+
 
 .button1:hover {
     background: purple;
@@ -96,6 +114,7 @@ a {
 
 }
 
+/*========================================GRID=========================================*/
 .gallery {
     color: antiquewhite;
     font-size: xx-large;
@@ -269,4 +288,49 @@ h3 {
     grid-column: 1/2;
     color: white;
     box-shadow: 0 3px 10px rgba(251, 255, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+    container1 {
+        justify-content: left;
+    }
+}
+
+.Auth {
+    display: none;
+}
+
+.img1 {
+    width: 100%;
+    box-shadow: 15px 15px 10px rgb(200 255 0 / 0.7);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.text {
+    width: 100%;
+    margin-left: 40px;
+    color: antiquewhite;
+
+}
+
+.face {
+    margin: 50px;
+
+
+}
+
+.button1 {
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(255, 196, 0, 0.7);
+    padding: 1, 1;
+    height: 40px;
+    width: 80px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 25px;
+    margin: 80px;
+    margin-right: 50px;
 }
