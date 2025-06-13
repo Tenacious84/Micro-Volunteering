@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Free Code camp *,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
+/* DEFINING A VARIABLE */
+:root {
+    --primary: rgba(162, 0, 103, 0.5);
+}
+
+body {
+    background: var(--primary);
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container1 {
+
+    position: fixed;
+    background: rgb(162, 0, 103);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.Auth {
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+
+}
+
+a {
+    height: 100%;
+}
+
+.Auth:focus {
+    border-bottom: 2px solid black;
+    color: whitesmoke;
+}
+
+.Auth:hover {
+    border-bottom: 5px solid black;
+    color: yellow;
+}
+
+.logo {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.container2 {
+    padding-top: 100px;
+    margin-left: 20px;
+    color: white;
+    font-size: 0px;
+}
+
+h1 {
+    justify-self: center;
+    color: white;
+    font-size: largest;
+}
+
+.form {
+    margin-left: 20px;
+
+}
+
+input {
+    color: white;
+    background-color: var(--primary);
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+#button1 {
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    border-color: rgba(162, 0, 103, 0.8);
+    margin: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(162, 0, 103, 0.5);
+}
+
+
+
+
+#button1:hover {
+    border: 2px solid rgba(0, 146, 162, 0.8);
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+
+}
+
+#button1:focus {
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    border-color: rgba(162, 0, 103, 1);
+    margin: 10px;
+    color: rgb(13, 0, 162);
+
+    a {
+        color: black;
+    }
+}
