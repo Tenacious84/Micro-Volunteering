@@ -300,43 +300,45 @@ h3 {
     container1 {
         justify-content: left;
     }
-}
-
-.Auth {
-    display: none;
-}
-
-.img1 {
-    width: 100%;
-    box-shadow: 15px 15px 10px rgb(200 255 0 / 0.7);
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
 
 
-.text {
-    width: 100%;
-    margin-left: 40px;
-    color: antiquewhite;
+    .Auth {
+        display: none;
+    }
 
-}
+    .img1 {
+        width: 100%;
+        box-shadow: 15px 15px 10px rgb(200 255 0 / 0.7);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
 
-.face {
-    margin: 50px;
+
+    .text {
+        width: 100%;
+        margin-left: 40px;
+        color: antiquewhite;
+
+    }
+
+    .face {
+        margin: 50px;
 
 
-}
+    }
 
-.button1 {
-    border-radius: 50px;
-    box-shadow: 0 3px 10px rgba(255, 196, 0, 0.7);
-    padding: 1, 1;
-    height: 40px;
-    width: 80px;
-    border: none;
-    color: white;
-    background: black;
-    font-size: 25px;
-    margin: 80px;
-    margin-right: 50px;
+    .button1 {
+        border-radius: 50px;
+        box-shadow: 0 3px 10px rgba(255, 196, 0, 0.7);
+        padding: 1, 1;
+        height: 40px;
+        width: 80px;
+        border: none;
+        color: white;
+        background: black;
+        font-size: 25px;
+        margin: 80px;
+        margin-right: 50px;
+    }
+
 }
